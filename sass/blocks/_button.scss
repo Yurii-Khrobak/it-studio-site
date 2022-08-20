@@ -1,0 +1,13 @@
+.btn {
+	font-weight: 500;
+	background-color: $accent;
+	color: $white;
+	border-radius: 30px;
+
+	padding: 15px 35px;
+
+	&:hover {
+		background-color: #3e73dc;
+		transition: all 0.2s ease-in;
+	}
+}

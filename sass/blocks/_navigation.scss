@@ -1,0 +1,41 @@
+.header {
+	height: 100vh;
+}
+
+.nav-wrapper {
+	border-bottom: 1px solid rgba(161, 161, 161, 0.5);
+}
+
+.navigation {
+	display: flex;
+	column-gap: 40px;
+
+	justify-content: flex-end;
+
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.nav-item {
+	& a {
+		color: $white;
+		line-height: 20px;
+		font-weight: 500;
+	}
+}
+
+.nav-active {
+	position: relative;
+
+	&::after {
+		content: '';
+		height: 2px;
+		width: 107px;
+
+		background-color: $white;
+
+		position: absolute;
+		bottom: -39px;
+		left: -20px;
+	}
+}

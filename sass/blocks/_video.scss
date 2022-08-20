@@ -1,0 +1,56 @@
+.video {
+	background: url('./../img/footer-img.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+
+	color: $white;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.video__row {
+	border-bottom: 1px solid $light-gray;
+
+}
+
+.video-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 53px;
+
+	padding-top: 70px;
+	margin-bottom: 30px;
+}
+
+.video-text {
+	margin-bottom: 70px;
+	position: relative;
+}
+
+.video-btn {
+	position: absolute;
+	left: 43%;
+	top: 476%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 20px;
+
+	border: 1px solid $white;
+	border-radius: 200px;
+
+	padding: 20px 40px;
+
+	max-width: 300px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.video-img {
+	margin-bottom: 80px;
+}
