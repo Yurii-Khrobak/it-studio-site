@@ -1,0 +1,23 @@
+.hero-wrapper {
+	text-align: center;
+
+	display: flex;
+
+	margin-top: 220px;
+}
+
+.hero-slogan {
+	font-weight: 500;
+	color: $white;
+}
+
+.hero-title {
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	color: $white;
+
+	margin-top: 20px;
+	margin-bottom: 50px;
+}

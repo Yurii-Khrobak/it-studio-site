@@ -1,0 +1,30 @@
+html,
+body {
+	font-family: "Montserrat", sans-serif;
+	color: $gray;
+	font-size: 16px;
+	line-height: 25px;
+
+	background: url("./../img/header-img.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+.container {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+
+	&--fluid {
+		max-width: unset;
+		width: 100%;
+	}
+
+	&--no-padding {
+		padding: 0;
+	}
+}
+
+.none {
+	display: none;
+}
